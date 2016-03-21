@@ -11,27 +11,17 @@ namespace a
         static void Main(string[] args)
         {
 
+            showpi pi = new showpi();
+            pi.showpie();
 
+            BMO bmo = new BMO();
+            bmo.DisplayIntruction();
 
-
-            //  showpi pi = new showpi();
-
-            //            pi.showpie();
-
-
-            // BMO bmo = new BMO();
-            //bmo.DisplayIntruction();
-
-            // Dance dance = new Dance();
-
-            //  dance.Dancenstuff();
+            Dance dance = new Dance();
+            dance.Dancenstuff();
 
             RotateNumber rotate = new RotateNumber();
-
             rotate.Rotate();
-
-
-
 
         }
     }
